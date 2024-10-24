@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Omat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        fieldset {border: 1px solid #000; padding: 10px; margin: 20px; width: 700px;max-width: 100%;}
+        legend {font-weight: bold;padding: 0 10px;}
+        .profile-header 
+            {display: flex; justify-content: space-between;align-items: flex-start;}
+
+        .profile-image 
+            {width: 150px; height: 150px; background-color: #ccc; margin-right: 2px;}
+
+        .profile-details 
+            {flex: 1; line-height: 1.5;}
+        .profile-header 
+            {display: flex;justify-content: space-between;align-items: flex-start;}
+
+        .profile-header img {
+            width: 300px;
+            height: 300px;
+            background-color: #ccc;
+        }
+        .profile-info {
+            margin-left: 20px;
+        }
+        .profile-info h1 {
+            margin: 0;
+        }
+
+        .categories {
+            text-align: right;
+        }
+        .categories ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .profile-info {
+            margin: 20px 0;
+        }
+        .attachments {
+            margin-top: 20px;
+        }
+        .attachments img {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .attachments a {
+            display: block;
+            text-decoration: none;
+            color: blue;
+        }
+        .media, .thumbnails {
+            margin-top: 20px;
+        }
+        .media .bar {
+            width: 100%;
+            height: 20px;
+            background-color: #ddd;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .media .bar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 60%;
+            height: 100%;
+            background-color: green;
+        }
+        .thumbnails {
+            display: flex;
+        }
+        .thumbnails .thumb {
+            width: 80px;
+            height: 80px;
+            background-color: #ccc;
+            margin-right: 10px;
+        }
+        .video-container {
+            margin-top: 20px;
+        }
+        video {
+            width: 200px;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<fieldset>
+    <legend>Data Profil</legend>
+    <div class="profile-header">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1LCJ3tDNioV3k1FFKnkuQoZW_793prkzgKpoc4y77Egzsx_9m_n8bTXaqrqj6ZuUd0kABS4ACukIR7YBLYVTongKFpGmc81mnkLZeq3jI5Q0Cv4tBSX_tJiHd6EjTwSUmi6Qajelr0hb7sW0yDtjVKIAZru8kh39jesIZtnCwNCXAi2hpA7PwgxRnMQQ/w206-h211/omat1.png" alt="Profile Image">
+        <div class="profile-info">
+            <p><strong>Muhammad Rizqi Nurrohmat</strong></p>
+            <p>Perum Puspa Raya Blok DD13 RT03/11</p>
+            <p>Bogor, Jawa Barat</p>
+            <p>Gmail: <a href="mailto:rizqinurrohmat6@gmail.com" target="blank">rizqinurrohmat6@gmail.com</a></p>
+            <p>Telephone: 089529415204</p>
+        </div>
+        <div class="categories">
+            <strong>Sosial Media</strong>
+            <ul>
+                <p><a href="https://api.whatsapp.com/send/?phone=089529415204&text&type=phone_number&app_absent=0" target="blank">WhatsApp</a></p>
+                <p><a href="https://www.instagram.com/_ikiomatt/" target="blank">Instagram</a></p>
+            </ul>
+        </div>
+    </div>
+
+    
+    <fieldset>
+        <legend>Deskripsi Tentangku</legend>
+        <div class="description">
+            <p>Saya adalah mahasiswa Sekolah Tinggi Teknologi Nurul fikri (STT NF). Saya lulusan tahun 2022 asal sekolah saya MAN 1 KAB.BOGOR jurusan Ilmu Pengetahuan Alam.</p>
+            <p>Pengalaman saya pernah kerja di PT. SGP ELEKTRONIK INDONESIA selama 2 bulan pada tahun 2023. Hobi saya bermain futsal dan touring .</p>
+        </div>
+ 
+        <fieldset style="float: left; width: 270px;">
+            <iframe width="260" height="195" src="https://www.youtube.com/embed/yTxWhfsywY0?si=b2LocjioOK95HE2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+        </fieldset>
+        <br> 
+        <a href="https://drive.google.com/file/d/1sfwHBTxxFU5bgElBHHEH2hQkKkBft4o6/view?usp=drive_link" target="blank">Unduh Video</a>
+
+    <fieldset>
+        <div class="attachments">
+            <strong>FOTO :</strong>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkiJRNH_T5OvDVL22dPuTrOqPvlFra5fMr6Q&s.jpg" alt="Attachment 1">
+            <img src="https://asset-a.grid.id/crop/0x0:0x0/x/photo/2020/07/31/447226347.jpg" alt="Attachment 2">
+            <img src="https://cdn.idntimes.com/content-images/community/2019/11/21373536-1694463867244938-5506560592195878912-n-f519671ad69ed90694a0c78999afcb2e.jpg" alt="Attachment 3">
+            <img src="https://cdn.idntimes.com/content-images/community/2019/11/selfie-anjing-a0381a7a52c08d5df395f6a9257d1378.jpg" alt="Attachment 4">
+        
+    </fieldset>
+    <fieldset>
+        <div class="attachments">
+            <a href="https://drive.google.com/file/d/1-Bf71uwyf7-IQ5ecE7te3ZjTCHhhmpJL/view?usp=drive_link" target="blank">DOWNLOAD IMAGE 1</a>
+            <a href="https://drive.google.com/file/d/1bkd88PI-_wpIiD4GBMJHzq9qJ_vZCho1/view?usp=drive_link" target="blank">DOWNLOAD IMAGE 2</a>
+            <a href="https://drive.google.com/file/d/177F7kWL-GTDKdfzOb_JcnE3y5HiqtCd0/view?usp=drive_link" target="blank">DOWNLOAD IMAGE 3</a>
+            <a href="https://drive.google.com/file/d/1WqWo8K_PIpJtkXLoF3S3jIX5Rlr7vyPO/view?usp=drive_link" target="blank">DOWNLOAD IMAGE 4</a>
+    </fieldset>
+</body>
+</html>
